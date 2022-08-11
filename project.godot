@@ -11,8 +11,8 @@ config_version=4
 [application]
 
 config/name="Lobster 13.2"
-run/main_scene="res://Scenes/Levels/Intro.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://Scenes/Levels/Intro/Intro.tscn"
+config/icon="res://assets/icon.png"
 
 [physics]
 
