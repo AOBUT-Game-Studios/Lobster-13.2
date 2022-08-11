@@ -1,0 +1,429 @@
+[gd_scene load_steps=7 format=2]
+
+[sub_resource type="DynamicFontData" id=4]
+font_path = "res://Assets/Fonts/Spline_Sans_Mono/SplineSansMono-VariableFont_wght.ttf"
+
+[sub_resource type="DynamicFont" id=5]
+size = 72
+outline_size = 2
+font_data = SubResource( 4 )
+
+[sub_resource type="Theme" id=6]
+default_font = SubResource( 5 )
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://Assets/Fonts/Spline_Sans_Mono/SplineSansMono-VariableFont_wght.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 41
+outline_size = 1
+font_data = SubResource( 1 )
+
+[sub_resource type="Theme" id=3]
+default_font = SubResource( 2 )
+
+[node name="IntroKeyboard" type="Spatial"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+expand = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect"]
+margin_right = 736.0
+margin_bottom = 348.0
+
+[node name="Label" type="Label" parent="TextureRect/VBoxContainer"]
+margin_right = 736.0
+margin_bottom = 88.0
+theme = SubResource( 6 )
+text = "Input Name"
+align = 1
+
+[node name="ColorRect" type="ColorRect" parent="TextureRect/VBoxContainer"]
+margin_top = 92.0
+margin_right = 736.0
+margin_bottom = 92.0
+
+[node name="GridContainer" type="GridContainer" parent="TextureRect/VBoxContainer"]
+margin_top = 96.0
+margin_right = 736.0
+margin_bottom = 348.0
+theme = SubResource( 3 )
+custom_constants/hseparation = 30
+columns = 13
+
+[node name="A" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_right = 29.0
+margin_bottom = 60.0
+text = "A"
+
+[node name="B" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 59.0
+margin_right = 89.0
+margin_bottom = 60.0
+text = "B"
+
+[node name="C" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 119.0
+margin_right = 143.0
+margin_bottom = 60.0
+text = "C"
+
+[node name="D" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 173.0
+margin_right = 204.0
+margin_bottom = 60.0
+text = "D"
+
+[node name="E" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 234.0
+margin_right = 257.0
+margin_bottom = 60.0
+text = "E"
+
+[node name="F" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 287.0
+margin_right = 309.0
+margin_bottom = 60.0
+text = "F"
+
+[node name="G" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 339.0
+margin_right = 367.0
+margin_bottom = 60.0
+text = "G"
+
+[node name="H" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 397.0
+margin_right = 426.0
+margin_bottom = 60.0
+text = "H"
+
+[node name="I" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 456.0
+margin_right = 482.0
+margin_bottom = 60.0
+text = "I"
+align = 1
+
+[node name="J" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 512.0
+margin_right = 554.0
+margin_bottom = 60.0
+text = "J"
+align = 1
+
+[node name="K" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 584.0
+margin_right = 612.0
+margin_bottom = 60.0
+text = "K"
+
+[node name="L" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 642.0
+margin_right = 667.0
+margin_bottom = 60.0
+text = "L"
+align = 1
+
+[node name="M" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 697.0
+margin_right = 736.0
+margin_bottom = 60.0
+text = "M"
+
+[node name="N" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_top = 64.0
+margin_right = 29.0
+margin_bottom = 124.0
+text = "N"
+
+[node name="O" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 59.0
+margin_top = 64.0
+margin_right = 89.0
+margin_bottom = 124.0
+text = "O"
+
+[node name="P" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 119.0
+margin_top = 64.0
+margin_right = 143.0
+margin_bottom = 124.0
+text = "P"
+
+[node name="Q" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 173.0
+margin_top = 64.0
+margin_right = 204.0
+margin_bottom = 124.0
+text = "Q"
+
+[node name="R" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 234.0
+margin_top = 64.0
+margin_right = 257.0
+margin_bottom = 124.0
+text = "R"
+
+[node name="S" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 287.0
+margin_top = 64.0
+margin_right = 309.0
+margin_bottom = 124.0
+text = "S"
+
+[node name="T" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 339.0
+margin_top = 64.0
+margin_right = 367.0
+margin_bottom = 124.0
+text = "T"
+
+[node name="U" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 397.0
+margin_top = 64.0
+margin_right = 426.0
+margin_bottom = 124.0
+text = "U"
+
+[node name="V" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 456.0
+margin_top = 64.0
+margin_right = 482.0
+margin_bottom = 124.0
+text = "V"
+
+[node name="W" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 512.0
+margin_top = 64.0
+margin_right = 554.0
+margin_bottom = 124.0
+text = "W"
+
+[node name="X" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 584.0
+margin_top = 64.0
+margin_right = 612.0
+margin_bottom = 124.0
+text = "X"
+
+[node name="Y" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 642.0
+margin_top = 64.0
+margin_right = 667.0
+margin_bottom = 124.0
+text = "Y"
+
+[node name="Z" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 697.0
+margin_top = 64.0
+margin_right = 736.0
+margin_bottom = 124.0
+text = "Z"
+align = 1
+
+[node name="a" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_top = 128.0
+margin_right = 29.0
+margin_bottom = 188.0
+text = "a"
+align = 1
+
+[node name="b" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 59.0
+margin_top = 128.0
+margin_right = 89.0
+margin_bottom = 188.0
+text = "b"
+align = 1
+
+[node name="c" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 119.0
+margin_top = 128.0
+margin_right = 143.0
+margin_bottom = 188.0
+text = "c"
+align = 1
+
+[node name="d" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 173.0
+margin_top = 128.0
+margin_right = 204.0
+margin_bottom = 188.0
+text = "d"
+align = 1
+
+[node name="e" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 234.0
+margin_top = 128.0
+margin_right = 257.0
+margin_bottom = 188.0
+text = "e"
+align = 1
+
+[node name="f" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 287.0
+margin_top = 128.0
+margin_right = 309.0
+margin_bottom = 188.0
+text = "f"
+align = 1
+
+[node name="g" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 339.0
+margin_top = 128.0
+margin_right = 367.0
+margin_bottom = 188.0
+text = "g"
+align = 1
+
+[node name="h" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 397.0
+margin_top = 128.0
+margin_right = 426.0
+margin_bottom = 188.0
+text = "h"
+align = 1
+
+[node name="i" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 456.0
+margin_top = 128.0
+margin_right = 482.0
+margin_bottom = 188.0
+text = "i"
+align = 1
+
+[node name="j" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 512.0
+margin_top = 128.0
+margin_right = 554.0
+margin_bottom = 188.0
+text = "j"
+align = 1
+
+[node name="k" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 584.0
+margin_top = 128.0
+margin_right = 612.0
+margin_bottom = 188.0
+text = "k"
+align = 1
+
+[node name="l" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 642.0
+margin_top = 128.0
+margin_right = 667.0
+margin_bottom = 188.0
+text = "l"
+align = 1
+
+[node name="m" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 697.0
+margin_top = 128.0
+margin_right = 736.0
+margin_bottom = 188.0
+text = "m"
+
+[node name="n" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_top = 192.0
+margin_right = 29.0
+margin_bottom = 252.0
+text = "n"
+align = 1
+
+[node name="o" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 59.0
+margin_top = 192.0
+margin_right = 89.0
+margin_bottom = 252.0
+text = "o"
+align = 1
+
+[node name="p" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 119.0
+margin_top = 192.0
+margin_right = 143.0
+margin_bottom = 252.0
+text = "p"
+align = 1
+
+[node name="q" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 173.0
+margin_top = 192.0
+margin_right = 204.0
+margin_bottom = 252.0
+text = "q"
+align = 1
+
+[node name="r" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 234.0
+margin_top = 192.0
+margin_right = 257.0
+margin_bottom = 252.0
+text = "r"
+align = 1
+
+[node name="s" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 287.0
+margin_top = 192.0
+margin_right = 309.0
+margin_bottom = 252.0
+text = "s"
+align = 1
+
+[node name="t" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 339.0
+margin_top = 192.0
+margin_right = 367.0
+margin_bottom = 252.0
+text = "t"
+align = 1
+
+[node name="u" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 397.0
+margin_top = 192.0
+margin_right = 426.0
+margin_bottom = 252.0
+text = "u"
+align = 1
+
+[node name="v" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 456.0
+margin_top = 192.0
+margin_right = 482.0
+margin_bottom = 252.0
+text = "v"
+align = 1
+
+[node name="w" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 512.0
+margin_top = 192.0
+margin_right = 554.0
+margin_bottom = 252.0
+text = "w"
+
+[node name="x" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 584.0
+margin_top = 192.0
+margin_right = 612.0
+margin_bottom = 252.0
+text = "x"
+align = 1
+
+[node name="y" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 642.0
+margin_top = 192.0
+margin_right = 667.0
+margin_bottom = 252.0
+text = "y"
+align = 1
+
+[node name="z" type="Label" parent="TextureRect/VBoxContainer/GridContainer"]
+margin_left = 697.0
+margin_top = 192.0
+margin_right = 736.0
+margin_bottom = 252.0
+text = "z"
+align = 1
